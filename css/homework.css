@@ -1,0 +1,21 @@
+
+
+#top{
+	width: 100%;
+	height: 130px;
+	border-top: 4px solid gray;
+}
+#top h1{
+	border-bottom: 2px solid #FF0000;
+	color: #2FABEC;
+	padding-bottom: 8px;
+}
+#top h1 span{
+	font-size: 18px;
+	color: #CCCCCC;
+}
+
+.sect2 img{
+	margin-top: 4px;
+}
+

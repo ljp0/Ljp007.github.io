@@ -1,0 +1,110 @@
+body{font-weight: 100;font-size: 20px;line-height: 2;}
+th{
+	min-width: 120px;
+	background-color: #007c;
+	color:#fff;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 100;
+	
+}
+
+td{min-width: 120px;}
+
+.nav{
+ height:40px;
+ background: #333;
+/* 阴影 */
+box-shadow: 0 1px 2px #666;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+ 
+ text-decoration: none;
+ list-style: none;
+}
+.btli{
+	float:left;
+	width: 100px;
+	
+	/* 对齐方式 */
+	text-align: center;
+	
+	
+}
+/* .btli ul{
+	display: inline;
+	margin-right: 4vw;
+	line-height: 40px;
+	position: absolute;
+	right: 5vw;
+	top: 0;
+} */
+.navlist a{
+	/* 超链接的字为白字 */
+	color: #fff;
+	display: block;
+	
+}
+.navlist a:hover{
+	/* 鼠标悬停变色 */
+	background: #666;
+}
+.droplist{
+	background: #333;
+	box-shadow: 0 1px 2px #333;
+	display: none;
+	/* 列表圆角 */
+	border-radius: 6px;
+	overflow: hidden;
+	
+	
+}
+
+/* 鼠标移动,下拉显示 */
+.btli:hover .droplist{
+	display: block;
+	
+}
+.droplist li{
+	border-top: 1px solid #666;
+}
+
+
+.bpt{
+	display: flex;
+	background-color: #ede9db;
+	
+	
+	
+}
+
+/* img{ 
+	
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	} */
+body{
+		background-image: url('../img/apic32688_s.jpg');
+		background-repeat: no-repeat;
+		position: absolute;
+		background-size: 100% 100%;
+		left: 0;
+		right: 0;
+		
+		
+	}
+
+
+#myAudio{
+	
+	margin-bottom: 0;
+	padding: 500px;
+}
+
+
+

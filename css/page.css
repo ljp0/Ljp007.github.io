@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.header,.nav,.container,.footer{
+	float: left;
+	width: 100%;
+}
+
+.header {
+	background: #ccc;
+	padding: 20px;
+	text-align: center;
+}
+
+.nav{
+	background: #333;
+}
+
+.nav a{
+	color: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+}
+.nav a:hover{
+	background: #bbb;
+	color: #000;
+}
+.lside{
+	width: 200px;
+	float: left;
+}
+.rside{
+	width: 200px;
+	float: right;
+}
+.content{
+	margin: 0px 205px;
+}
