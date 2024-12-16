@@ -92,7 +92,7 @@ body{
 		background-image: url('../img/apic32688_s.jpg');
 		background-repeat: no-repeat;
 		position: absolute;
-		background-size: 100% 100%;
+		background-size: cover;
 		left: 0;
 		right: 0;
 		
